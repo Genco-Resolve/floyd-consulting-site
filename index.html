@@ -3,239 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Floyd Mudzvova - Strategic Finance Partner | Registered Professional Accountant SA | Financial Leadership & Governance">
+    <meta name="description" content="Floyd Mudzvova - Strategic Finance Partner | Registered Professional Accountant SA | Serving corporates in Zimbabwe and Southern Africa">
     <title>Floyd Mudzvova | Strategic Finance Partner</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #2c3e50;
-            background: #f8f9fa;
-        }
-        
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 80px 0 60px;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        
-        header h2 {
-            font-size: 1.5em;
-            font-weight: 300;
-            margin-bottom: 15px;
-            opacity: 0.95;
-        }
-        
-        .credentials {
-            font-size: 1em;
-            opacity: 0.9;
-            margin-top: 15px;
-            letter-spacing: 0.5px;
-        }
-        
-        .tagline {
-            font-size: 1.2em;
-            margin-top: 20px;
-            font-style: italic;
-            opacity: 0.85;
-        }
-        
-        section {
-            background: white;
-            margin: 40px auto;
-            padding: 50px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-        }
-        
-        h3 {
-            font-size: 2em;
-            margin-bottom: 30px;
-            color: #1e3c72;
-            border-bottom: 3px solid #2a5298;
-            padding-bottom: 10px;
-        }
-        
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
-        
-        .service-card {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 8px;
-            border-left: 4px solid #2a5298;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-        }
-        
-        .service-card h4 {
-            font-size: 1.4em;
-            margin-bottom: 15px;
-            color: #1e3c72;
-        }
-        
-        .service-card p {
-            color: #555;
-            line-height: 1.8;
-        }
-        
-        .about p {
-            font-size: 1.1em;
-            line-height: 1.9;
-            color: #444;
-            margin-bottom: 20px;
-        }
-        
-        .contact {
-            text-align: center;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-        }
-        
-        .contact h3 {
-            color: white;
-            border-bottom: 3px solid white;
-        }
-        
-        .contact p {
-            font-size: 1.2em;
-            margin: 20px 0;
-        }
-        
-        .contact a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            border-bottom: 2px solid rgba(255,255,255,0.5);
-            transition: border-color 0.3s;
-        }
-        
-        .contact a:hover {
-            border-color: white;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: #777;
-            font-size: 0.9em;
-        }
-        
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.2em;
-            }
-            
-            header h2 {
-                font-size: 1.2em;
-            }
-            
-            section {
-                padding: 30px 20px;
-            }
-            
-            .services {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Floyd Mudzvova</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services & Industries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
         <div class="container">
             <h1>Floyd Mudzvova</h1>
             <h2>Strategic Finance Partner</h2>
-            <div class="credentials">Registered Professional Accountant SA | CIMA Management Level Candidate</div>
-            <p class="tagline">Delivering financial discipline, governance, and strategic insight where it matters most</p>
+            <p class="credentials">Registered Professional Accountant SA | CIMA Strategy Level Candidate</p>
+            <p class="tagline">Delivering financial leadership and operational excellence to corporates across Zimbabwe and Southern Africa</p>
+            <div class="cta-buttons">
+                <a href="about.html" class="btn btn-primary">Learn More</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
         </div>
-    </header>
+    </section>
 
-    <div class="container">
-        <section class="about">
-            <h3>Professional Profile</h3>
-            <p>
-                With over eight years of progressive leadership across finance, operations, and advisory, I bring a depth of experience that extends beyond technical accounting into the strategic and operational dimensions of business performance.
-            </p>
-            <p>
-                My work is grounded in the belief that finance must serve as a trusted partner to leadership—translating data into insight, aligning financial execution with commercial objectives, and embedding control, governance, and visibility into decision-making processes.
-            </p>
-            <p>
-                I specialize in environments where financial integrity, operational accountability, and stakeholder confidence are non-negotiable.
-            </p>
-        </section>
-
-        <section>
-            <h3>Core Service Offerings</h3>
-            <div class="services">
-                <div class="service-card">
-                    <h4>Finance Function Leadership & Governance</h4>
-                    <p>End-to-end stewardship of the finance function, from full-cycle accounting and reporting through to financial control frameworks, compliance oversight, and audit readiness.</p>
+    <section class="highlights">
+        <div class="container">
+            <h2>Why Work With Me</h2>
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <h3>Proven Track Record</h3>
+                    <p>7+ years progressive experience across diverse industries including law firms, logistics, FMCG, educational institutions, professional services, and leisure businesses</p>
                 </div>
-                
-                <div class="service-card">
-                    <h4>Strategic Financial Planning & Analysis</h4>
-                    <p>Budgeting, forecasting, and scenario modeling to support performance management, capital allocation, and long-range planning with clarity and commercial insight.</p>
+                <div class="highlight-card">
+                    <h3>Strategic & Operational</h3>
+                    <p>Unique blend of financial planning expertise and client success management, bridging finance with operational delivery</p>
                 </div>
-                
-                <div class="service-card">
-                    <h4>Operational Finance & Cost Management</h4>
-                    <p>Implementing finance-led controls across procurement, vendor management, and expenditure to strengthen accountability, transparency, and spend visibility.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h4>Financial Reporting & Stakeholder Communication</h4>
-                    <p>Delivering accurate, audit-ready financial statements and management reports that support decision-making, investor confidence, and board-level governance.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h4>Process Improvement & Systems Integration</h4>
-                    <p>Redesigning finance workflows, strengthening internal controls, and integrating finance systems to improve efficiency, data integrity, and reporting pipelines.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h4>Advisory for Growth & Sustainability</h4>
-                    <p>Supporting business owners and leadership teams through financial due diligence, restructuring, governance strengthening, and finance transformation initiatives.</p>
+                <div class="highlight-card">
+                    <h3>Corporate Focus</h3>
+                    <p>Specializing in serving established corporates in Zimbabwe and Southern Africa with finance leadership and transformation</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="contact">
-            <h3>Let's Connect</h3>
-            <p>Available for advisory engagements, interim finance leadership roles, and strategic finance partnerships.</p>
-            <p>Email: <a href="mailto:floyd@gencofloyd.co.za">floyd@gencofloyd.co.za</a></p>
-            <p>Location: Randburg, Gauteng, South Africa</p>
-        </section>
-    </div>
+    <section class="experience-snapshot">
+        <div class="container">
+            <h2>Industries Served</h2>
+            <div class="industry-list">
+                <div class="industry-item">Law Firms</div>
+                <div class="industry-item">Logistics & Distribution</div>
+                <div class="industry-item">FMCG & Retail</div>
+                <div class="industry-item">Educational Institutions</div>
+                <div class="industry-item">Professional Services</div>
+                <div class="industry-item">Hospitality & Restaurants</div>
+                <div class="industry-item">Leisure & Country Clubs</div>
+                <div class="industry-item">Resorts & Tourism</div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 Floyd Mudzvova. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Floyd Mudzvova. All rights reserved.</p>
+            <p>Based in Randburg, South Africa | Relocating to Zimbabwe</p>
+        </div>
     </footer>
 </body>
 </html>
